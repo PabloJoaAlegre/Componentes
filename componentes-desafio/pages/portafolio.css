@@ -1,0 +1,8 @@
+.main__content-text{
+    font-size: 30px;
+}
+@media(min-width: 700px){
+    .main__content-text{
+        font-size: 50px;
+    }
+}
