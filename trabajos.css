@@ -1,0 +1,89 @@
+.servicios {
+    background-color: #13171C; 
+    background-image: url('./imgs/doodle\ items.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100%;
+    width: 100%;
+    position: relative; /
+}
+
+.servicios__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    z-index: 2; 
+    position: relative;
+    width: 100%;
+}
+
+.servicios__content__title {
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    margin: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.servicios__content__title-buttom {
+    color: #00ADB5;
+    margin-left: 5px;
+}
+
+.servicios__content__card {
+    font-family: sans-serif;
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 16px;
+    margin: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+.servicios__content__card:hover {
+    transform: scale(1.05); 
+}
+
+.content__card-img {
+    height: 158px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.content__card-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content__card-text {
+    color: #C0C0C0;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media(min-width: 700px){
+    .portafolio__content{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .portfaolio__content-text{
+        padding-right: 200px;
+    }
+    .content__cards{
+        display: flex;
+    }
+}
